@@ -234,7 +234,7 @@ QUESTIONS = [
     {"text": "33. On the pitch, there are no opponents to respect sportingly, but enemies to intimidate and overwhelm with mental strength.", "wx": 1, "wy": 2, "wz": -2},
     {"text": "34. Football is a contact sport: making ruthless tactical fouls and letting opponents feel your studs from the first minute is essential.", "wx": 2, "wy": 1, "wz": -2},
     {"text": "35. Referee and media controversies are legitimate and necessary weapons to shift pressure and unify the environment.", "wx": 1, "wy": 2, "wz": -1},
-    {"text": "36. If a player on the pitch ignores tactical instructions and chooses to rely solely on personal instinct, they deserve an immediate and severe reprimand.", "wx": 1, "wy": 2, "wz": 0},
+    {"text": "36. If a player on the pitch ignores tactical instructions and chooses to rely solely on personal instinct, they deserve an immediate and severe reprimand.", "wx": -2, "wy": 2, "wz": 0},
     {"text": "37. Modern football requires pure speed: the golden rule is to play in one or two touches to speed up the maneuver and avoid mental lethargy.", "wx": -1, "wy": 0, "wz": 2},
     {"text": "38. It is better to put the players in their best position, rather than making your players learn your football phylosophy.", "wx": 2, "wy": -1, "wz": 0},
     {"text": "39. If I need to defend a goal in the last minutes I prefer bringing on a defender for an offensive player over suffering with the same scheme.", "wx": 2, "wy": 0, "wz": 2},
