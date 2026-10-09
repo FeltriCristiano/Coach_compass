@@ -198,7 +198,7 @@ QUESTIONS = [
     {"text": "37. Modern football requires pure speed: the golden rule is to play in one or two touches to speed up the maneuver and avoid mental lethargy.", "wx": -1, "wy": 0, "wz": 2},
     {"text": "38. It is better to put the players in their best position, rather than making your players learn your football phylosophy ", "wx": 2, "wy": -1, "wz": 0},
     {"text": "39. If I need to defend a goal in the last minutes I prefer bringing on a defender for an offensive player over suffering with the same scheme.", "wx": 2, "wy": 0, "wz": 2},
-    {"text": "40. It is better to have a goalkeeper that can play from the back but is an average shotstopper than one that can't play with their feet but is strong between the sticks." "wx": -1, "wy": 0, "wz": 1}       
+    {"text": "40. It is better to have a goalkeeper that can play from the back but is an average shotstopper than one that can't play with their feet but is strong between the sticks.", "wx": -1, "wy": 0, "wz": 1}       
 ]
 
 # Mapping text options to numerical values (-2 to +2)
