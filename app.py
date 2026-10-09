@@ -191,7 +191,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Sergio Conceicao", 
-        "x": 3.0, "y": 8.0, "z": -3.0, 
+        "x": 3.0, "y": 7.0, "z": -3.0, 
         "desc": "The Combative Sergeant: relentless intensity, strong organization and a fierce, uncompromising competitive spirit.",
         "image": "img/conceicao.jpg"
     }
