@@ -53,7 +53,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Pep Guardiola", 
-        "x": -5.0, "y": 6.0, "z": 7.0,  
+        "x": -5.0, "y": 5.0, "z": 7.0,  
         "desc": "The Technocratic Planner: maniacal ball possession and total control of the game system.",
         "image": "img/guardiola.jpg"
     },
