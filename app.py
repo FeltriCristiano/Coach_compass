@@ -179,7 +179,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Luis de la Fuente", 
-        "x": -3.0, "y": -3.0, "z": 5.0, 
+        "x": -4.0, "y": -3.0, "z": 5.0, 
         "desc": "The Vertical Normalizer: possession without dogmas, fierce search for one-on-ones on the wings and calm, silent management.",
         "image": "img/delafuente.jpg"
     },
@@ -239,7 +239,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Cesc Fabregas", 
-        "x": -5.0, "y": -2.0, "z": 5.0, 
+        "x": -3.0, "y": -2.0, "z": 5.0, 
         "desc": "The Modern Visionary: proactive possession, technical bravery, fluid positional structure, and a calm, player-centric approach.",
         "image": "img/fabregas.jpg"
     },
