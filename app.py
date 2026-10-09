@@ -137,7 +137,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Xabi Alonso", 
-        "x": 2.0, "y": 4.0, "z": 6.0, 
+        "x": 1.0, "y": 2.0, "z": 6.0, 
         "desc": "The Elegant Architect: flawless transitions, pitch control, and modern, flexible offensive mentality.",
         "image": "img/alonso.jpg"
     },
@@ -194,7 +194,55 @@ COACHES_EXTENDED = [
         "x": 3.0, "y": 7.0, "z": -3.0, 
         "desc": "The Combative Sergeant: relentless intensity, strong organization and a fierce, uncompromising competitive spirit.",
         "image": "img/conceicao.jpg"
-    }
+    },
+    {
+        "name": "Luciano Spalletti", 
+        "x": -5.0, "y": 2.0, "z": 6.0, 
+        "desc": "The Tactical Artisan: fluid positional play, strict field relationships, and a passionate, highly expressive style.",
+        "image": "img/spalletti.jpg"
+    },
+    {
+        "name": "Didier Deschamps", 
+        "x": 6.0, "y": -1.0, "z": 1.0, 
+        "desc": "The Pragmatic Winner: rock-solid defensive shape, elite tournament management, and total focus on efficiency.",
+        "image": "img/deschamps.jpg"
+    },
+    {
+        "name": "Andoni Iraola", 
+        "x": -4.0, "y": -1.0, "z": 7.0, 
+        "desc": "The High-Octane Presser: suffocating vertical intensity, quick transitions, and modern tactical courage.",
+        "image": "img/iraola.jpg"
+    },
+    {
+        "name": "Manuel Pellegrini", 
+        "x": 2.0, "y": -4.0, "z": 5.0, 
+        "desc": "The Calm Engineer: fluid offensive football, technical freedom for creative players, and composed leadership.",
+        "image": "img/pellegrini.jpg"
+    },
+    {
+        "name": "Gennaro Gattuso", 
+        "x": 0.0, "y": 7.0, "z": 0.0, 
+        "desc": "The Fiery Motivator: unyielding emotional intensity, discipline, grit, and direct accountability.",
+        "image": "img/gattuso.jpg"
+    },
+    {
+        "name": "Roberto Mancini", 
+        "x": -2.0, "y": -1.0, "z": 4.0, 
+        "desc": "The Elegant Technical Maestro: proactive possession, technical quality over physical brawn, and calm authority.",
+        "image": "img/mancini.jpg"
+    },   
+    {
+        "name": "Arne Slot", 
+        "x": -2.0, "y": -2.0, "z": 6.0, 
+        "desc": "The Calm Strategist: high-tempo pressing, structured positional fluidity, and composed modern leadership.",
+        "image": "img/slot.jpg"
+    },
+    {
+        "name": "Cesc Fabregas", 
+        "x": -5.0, "y": -2.0, "z": 4.0, 
+        "desc": "The Modern Visionary: proactive possession, technical bravery, fluid positional structure, and a calm, player-centric approach.",
+        "image": "img/fabregas.jpg"
+    },
 ]
 
 # The 40 statements with weights for the three axes (X, Y, Z)
