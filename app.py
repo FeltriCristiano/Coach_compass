@@ -308,11 +308,7 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     if user_z < -10: 
          user_z = -10
 
-
     # Find the closest manager using 3D Euclidean distance
-    closest_coach = None
-    min_distance = float('inf')
-    # Calculate distance for all managers and sort them
     coaches_with_distance = []
     for coach in COACHES_EXTENDED:
         dist = math.sqrt(
@@ -334,13 +330,16 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     third_closest = coaches_with_distance[2]["coach"]
     furthest_coach = coaches_with_distance[-1]["coach"]
 
-
     # Display results
     st.balloons()
     st.success("Test completed successfully!")
     
     st.markdown(f"### 🎯 Your alter ego is: **{closest_coach['name']}**")
-    st.image(closest_coach["image"], width=400)
+    
+    # Controlla se la chiave 'image' esiste prima di caricarla
+    if "image" in closest_coach:
+        st.image(closest_coach["image"], width=400)
+        
     st.info(closest_coach["desc"])
     
     st.markdown("#### 📐 Your coordinates in 3D space (from -10 to +10):")
@@ -365,6 +364,9 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
 
     st.markdown("---")
 
-    # --- 🛑 THE FURTHERST FROM YOU ---
+    # --- 🛑 THE FURTHEST FROM YOU ---
     st.markdown("### 🛑 Your Tactical Nemesis (Most Opposite Manager)")
     st.warning(f"**{furthest_coach['name']}**\n\n{furthest_coach['desc']}")
+
+
+   
