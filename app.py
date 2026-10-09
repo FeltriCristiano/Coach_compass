@@ -18,181 +18,181 @@ COACHES_EXTENDED = [
     {
         "name": "Massimiliano Allegri", 
         "x": 5.0, "y": 1.0, "z": -8.0,    
-        "desc": "The Realistic Conservative: only the result and intelligent management of moments matter to you."
+        "desc": "The Realistic Conservative: only the result and intelligent management of moments matter to you.",
         "image": "img/allegri.jpg"
     },
     {
         "name": "Antonio Conte", 
         "x": -2.0, "y": 9.0, "z": -7.0,  
-        "desc": "The Authoritarian Jacobin: iron discipline, grueling work and zero tolerance for dissent."
+        "desc": "The Authoritarian Jacobin: iron discipline, grueling work and zero tolerance for dissent.",
         "image": "img/conte.jpg"
     },
     {
         "name": "Maurizio Sarri", 
         "x": -8.0, "y": 2.0, "z": 5.0,  
-        "desc": "The Intransigent Revolutionary: the beautiful game and tactical dogma come first."
+        "desc": "The Intransigent Revolutionary: the beautiful game and tactical dogma come first.",
         "image": "img/sarri.jpg"
     },
     {
         "name": "Carlo Ancelotti", 
         "x": 8.0, "y": -4.0, "z": 0.0,  
-        "desc": "The Aristocratic Liberal: you manage champions with empathy, authority and absolute freedom."
+        "desc": "The Aristocratic Liberal: you manage champions with empathy, authority and absolute freedom.",
         "image": "img/ancelotti.jpg"
     },
     {
         "name": "Marcelo Bielsa", 
         "x": -8.0, "y": -6.0, "z": 6.0,  
-        "desc": "The Romantic Anarchist: crazy, total, idealistic football, rebellious to any logic of power."
+        "desc": "The Romantic Anarchist: crazy, total, idealistic football, rebellious to any logic of power.",
         "image": "img/bielsa.jpg"
     },
     {
         "name": "Gian Piero Gasperini", 
         "x": -4.0, "y": 8.0, "z": 7.0,  
-        "desc": "The Commander of the Commune: suffocating pressing, working-class enhancement and an iron fist."
+        "desc": "The Commander of the Commune: suffocating pressing, working-class enhancement and an iron fist.",
         "image": "img/gasperini.jpg"
     },
     {
         "name": "Pep Guardiola", 
         "x": -6.0, "y": 7.0, "z": 7.0,  
-        "desc": "The Technocratic Planner: maniacal ball possession and total control of the game system."
+        "desc": "The Technocratic Planner: maniacal ball possession and total control of the game system.",
         "image": "img/guardiola.jpg"
     },
     {
         "name": "Diego Simeone", 
         "x": 3.0, "y": 8.0, "z": -8.0,  
-        "desc": "The Sovereign of the Trench: all-out defense, group identity and battle spirit."
+        "desc": "The Sovereign of the Trench: all-out defense, group identity and battle spirit.",
         "image": "img/simeone.jpg"
     },
     {
         "name": "Zinedine Zidane", 
         "x": 3.0, "y": -2.0, "z": 3.0,  
-        "desc": "The Enlightened Monarch: silent charisma, serene management and absolute respect for the locker room."
+        "desc": "The Enlightened Monarch: silent charisma, serene management and absolute respect for the locker room.",
         "image": "img/zidane.jpg"
     },
     {
         "name": "José Mourinho", 
         "x": 8.0, "y": 9.0, "z": -6.0, 
-        "desc": "The Commander of the Besieged Fortress: cynicism, psychological warfare, and stout defense to win against everyone."
+        "desc": "The Commander of the Besieged Fortress: cynicism, psychological warfare, and stout defense to win against everyone.",
         "image": "img/mourinho.jpg"
     },
     {
         "name": "Roberto de Zerbi", 
         "x": -7.0, "y": -1.0, "z": 5.0, 
-        "desc": "The Revolutionary Visionary: absolute dogma of playing out from the back, expressive freedom, and total courage."
+        "desc": "The Revolutionary Visionary: absolute dogma of playing out from the back, expressive freedom, and total courage.",
         "image": "img/dezerbi.jpg"
     },
     {
         "name": "Stefano Pioli", 
         "x": -1.0, "y": -3.0, "z": 4.0, 
-        "desc": "The Empathetic Family Man: group cohesion, lightheartedness, and collective solidarity without authoritarian rigidity."
+        "desc": "The Empathetic Family Man: group cohesion, lightheartedness, and collective solidarity without authoritarian rigidity.",
         "image": "img/pioli.jpg"
     },
     {
         "name": "Jurgen Klopp", 
         "x": -5.0, "y": 2.0, "z": 7.0, 
-        "desc": "The Rock 'n' Roll Leader: furious gegenpressing, overwhelming empathy, and extremely high-intensity offensive mentality."
+        "desc": "The Rock 'n' Roll Leader: furious gegenpressing, overwhelming empathy, and extremely high-intensity offensive mentality.",
         "image": "img/klopp.jpg"
     },
     {
         "name": "Mikel Arteta", 
         "x": 3.0, "y": 6.0, "z": -1.0, 
-        "desc": "The Technocrat of Arsenal: meticulous match control, attention to detail, and engineering-like organization."
+        "desc": "The Technocrat of Arsenal: meticulous match control, attention to detail, and engineering-like organization.",
         "image": "img/arteta.jpg"
     },
     {
         "name": "José Bordalas", 
         "x": 2.0, "y": 7.0, "z": -9.0, 
-        "desc": "The Master of the Trench and Garra: low block, extreme athleticism, and uncompromising defensive pragmatism."
+        "desc": "The Master of the Trench and Garra: low block, extreme athleticism, and uncompromising defensive pragmatism.",
         "image": "img/bordalas.jpg"
     },
     {
         "name": "Hansi Flick", 
         "x": -6.0, "y": 1.0, "z": 9.0, 
-        "desc": "The General Manager of Verticality: extremely high defensive line, suffocating pressing, and devastating forward drive."
+        "desc": "The General Manager of Verticality: extremely high defensive line, suffocating pressing, and devastating forward drive.",
         "image": "img/flick.jpg"
     },
     {
         "name": "Ruben Amorim", 
         "x": -4.0, "y": -1.0, "z": 5.0, 
-        "desc": "The Modern Commander: rigid 3-4-2-1 organization, collaborative leadership, and extremely clear tactical ideas."
+        "desc": "The Modern Commander: rigid 3-4-2-1 organization, collaborative leadership, and extremely clear tactical ideas.",
         "image": "img/amorim.jpg"
     },
     {
         "name": "Unai Emery", 
         "x": 1.0, "y": 6.0, "z": 0.0, 
-        "desc": "The Press Room Tactician: chameleon-like, meticulous cup preparation, and pushed pragmatism."
+        "desc": "The Press Room Tactician: chameleon-like, meticulous cup preparation, and pushed pragmatism.",
         "image": "img/emery.jpg"
     },
     {
         "name": "Sean Dyche", 
         "x": 3.0, "y": 5.0, "z": -6.0, 
-        "desc": "The Premier League Workhorse: classic 4-4-2, long balls, compact block, and trench resistance."
+        "desc": "The Premier League Workhorse: classic 4-4-2, long balls, compact block, and trench resistance.",
         "image": "img/dyche.jpg"
     },
     {
         "name": "Luis Enrique", 
         "x": -6.0, "y": 5.0, "z": 6.0, 
-        "desc": "The Republican Manager: dogmatic ball possession, institutional rigor, and rejection of individualisms."
+        "desc": "The Republican Manager: dogmatic ball possession, institutional rigor, and rejection of individualisms.",
         "image": "img/enrique.jpg"
     },
     {
         "name": "Xabi Alonso", 
         "x": 2.0, "y": 4.0, "z": 6.0, 
-        "desc": "The Elegant Architect: flawless transitions, pitch control, and modern, flexible offensive mentality."
+        "desc": "The Elegant Architect: flawless transitions, pitch control, and modern, flexible offensive mentality.",
         "image": "img/alonso.jpg"
     },
     {
         "name": "Claudio Ranieri", 
         "x": 6.0, "y": -2.0, "z": -1.0, 
-        "desc": "The Wise Gentleman: elastic pragmatism, paternal management, and the ability to unite any locker room."
+        "desc": "The Wise Gentleman: elastic pragmatism, paternal management, and the ability to unite any locker room.",
         "image": "img/ranieri.jpg"
     },
     {
         "name": "Paulo Fonseca", 
         "x": -5.0, "y": 0.0, "z": 6.0, 
-        "desc": "Paulo Fonseca: constant search for clean passing, fluid build-up, and offensive vocation."
+        "desc": "Paulo Fonseca: constant search for clean passing, fluid build-up, and offensive vocation.",
         "image": "img/gasperini.jpg"
     },
     {
         "name": "Mauricio Pochettino", 
         "x": -3.0, "y": -2.0, "z": 5.0, 
-        "desc": "The Modern Trainer: high athletic intensity, youth development, and dynamic, associative football."
+        "desc": "The Modern Trainer: high athletic intensity, youth development, and dynamic, associative football.",
         "image": "img/pochettino.jpg"
     },
     {
         "name": "Thomas Tuchel", 
         "x": -1.0, "y": 3.0, "z": 5.0, 
-        "desc": "The Tactical Professor: meticulous perfectionism, strategic chameleon-like behavior, and extremely high demands."
+        "desc": "The Tactical Professor: meticulous perfectionism, strategic chameleon-like behavior, and extremely high demands.",
         "image": "img/tuchel.jpg"
     },
     {
         "name": "Enzo Maresca", 
         "x": -5.0, "y": 3.0, "z": 7.0, 
-        "desc": "The Disciple of Pep: obsessive possession, positional micro-structures, and territorial dominance."
+        "desc": "The Disciple of Pep: obsessive possession, positional micro-structures, and territorial dominance.",
         "image": "img/maresca.jpg"
     },
     {
         "name": "Lionel Scaloni", 
         "x": 1.0, "y": -4.0, "z": 0.0, 
-        "desc": "The Empathetic Chameleon: fraternal team spirit, emotional intelligence and absolute tactical pragmatism to adapt to any opponent."
+        "desc": "The Empathetic Chameleon: fraternal team spirit, emotional intelligence and absolute tactical pragmatism to adapt to any opponent.",
         "image": "img/scaloni.jpg"
     },
     {
         "name": "Luis de la Fuente", 
         "x": -3.0, "y": -3.0, "z": 5.0, 
-        "desc": "The Vertical Normalizer: possession without dogmas, fierce search for one-on-ones on the wings and calm, silent management."
+        "desc": "The Vertical Normalizer: possession without dogmas, fierce search for one-on-ones on the wings and calm, silent management.",
         "image": "img/delafuente.jpg"
     },
     {
         "name": "Vincent Kompany", 
         "x": -6.0, "y": 2.0, "z": 8.0, 
-        "desc": "The Relentless Innovator: extreme high pressing, dogmatic ball possession and unwavering belief in attacking principles."
+        "desc": "The Relentless Innovator: extreme high pressing, dogmatic ball possession and unwavering belief in attacking principles.",
         "image": "img/kompany.jpg"
     },
     {
         "name": "Sergio Conceicao", 
         "x": 3.0, "y": 8.0, "z": -3.0, 
-        "desc": "The Combative Sergeant: relentless intensity, strong organization and a fierce, uncompromising competitive spirit."
+        "desc": "The Combative Sergeant: relentless intensity, strong organization and a fierce, uncompromising competitive spirit.",
         "image": "img/conceicao.jpg"
     }
 ]
