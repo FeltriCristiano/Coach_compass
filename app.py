@@ -125,7 +125,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Sean Dyche", 
-        "x": 3.0, "y": 5.0, "z": -7.0, 
+        "x": 2.0, "y": 5.0, "z": -7.0, 
         "desc": "The Premier League Workhorse: classic 4-4-2, long balls, compact block, and trench resistance.",
         "image": "img/dyche.jpg"
     },
