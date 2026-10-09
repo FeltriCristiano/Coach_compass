@@ -22,7 +22,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Antonio Conte", 
-        "x": -3.0, "y": 9.0, "z": -7.0,  
+        "x": -2.0, "y": 9.0, "z": -7.0,  
         "desc": "The Authoritarian Jacobin: iron discipline, grueling work and zero tolerance for dissent."
     },
     {
@@ -57,7 +57,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Zinedine Zidane", 
-        "x": 5.0, "y": -2.0, "z": 3.0,  
+        "x": 3.0, "y": -2.0, "z": 3.0,  
         "desc": "The Enlightened Monarch: silent charisma, serene management and absolute respect for the locker room."
     },
     {
@@ -82,7 +82,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Mikel Arteta", 
-        "x": 5.0, "y": 6.0, "z": -6.0, 
+        "x": 3.0, "y": 6.0, "z": -1.0, 
         "desc": "The Technocrat of Arsenal: meticulous match control, attention to detail, and engineering-like organization."
     },
     {
@@ -145,6 +145,16 @@ COACHES_EXTENDED = [
         "x": -5.0, "y": 3.0, "z": 7.0, 
         "desc": "The Disciple of Pep: obsessive possession, positional micro-structures, and territorial dominance."
     }
+    {
+        "name": "Lionel Scaloni", 
+        "x": 1.0, "y": -4.0, "z": 0.0, 
+        "desc": "The Empathetic Chameleon: fraternal team spirit, emotional intelligence and absolute tactical pragmatism to adapt to any opponent."
+    }
+    {
+        "name": "Luis de la Fuente", 
+        "x": -3.0, "y": -3.0, "z": 5.0, 
+        "desc": "The Vertical Normalizer: possession without dogmas, fierce search for one-on-ones on the wings and calm, silent management."
+    }
 ]
 
 # The 36 statements with weights for the three axes (X, Y, Z)
@@ -173,18 +183,22 @@ QUESTIONS = [
     {"text": "22. Investing in youth academies always pays off more than buying ready-made but expensive players on the market.", "wx": -2, "wy": 0, "wz": 0},
     {"text": "23. Changing formations during the match or mirroring the opponent shows intelligence and flexibility.", "wx": 2, "wy": 0, "wz": 0},
     {"text": "24. Even in numerical inferiority or a difficult away match, you must never give up attacking and playing the game.", "wx": -1, "wy": 0, "wz": 2},
-    {"text": "25. Smiling on the bench and excessive familiarity with players ruin the coach's authority; professional distance is required.", "wx": 0, "wy": 2, "wz": 0},
-    {"text": "26. The important thing is winning, it doesn't matter if suffering for ninety minutes: history only remembers the lifted trophies.", "wx": 2, "wy": 0, "wz": -1},
-    {"text": "27. A serene climate, based on dialogue and players' happiness on the pitch, is the true secret of great winning cycles.", "wx": 0, "wy": -2, "wz": 1},
-    {"text": "28. Athletic condition and the ability to run more than the opponent matter much more than pure technique or formations.", "wx": -1, "wy": 1, "wz": 1},
-    {"text": "29. When winning by a narrow margin in the final minutes, wasting time, breaking up play, and smart tactical fouls are a necessary art.", "wx": 2, "wy": 0, "wz": -2},
-    {"text": "30. Football is a collective work of art: the goal of a great manager is to leave a historical mark through ideas.", "wx": -2, "wy": -1, "wz": 2},
-    {"text": "31. Modern footballers need constant iron-fist discipline; as soon as you loosen your grip on authority, the team falls apart.", "wx": 0, "wy": 2, "wz": -1},
-    {"text": "32. On the pitch, there are no opponents to respect sportingly, but enemies to intimidate and overwhelm with mental strength.", "wx": 1, "wy": 2, "wz": -2},
-    {"text": "33. Football is a contact sport: making ruthless tactical fouls and letting opponents feel your studs from the first minute is essential.", "wx": 2, "wy": 1, "wz": -2},
-    {"text": "34. Referee and media controversies are legitimate and necessary weapons to shift pressure and unify the environment.", "wx": 1, "wy": 2, "wz": -1},
-    {"text": "35. If a player on the pitch ignores tactical instructions and chooses to rely solely on personal instinct, they deserve an immediate and severe reprimand.", "wx": 1, "wy": 2, "wz": 0},
-    {"text": "36. Modern football requires pure speed: the golden rule is to play in one or two touches to speed up the maneuver and avoid mental lethargy.", "wx": -1, "wy": 0, "wz": 2}
+    {"text": "25. I demand the board players that fit my style of football and do not want a player that does not even if they are individually very strong.", "wx": -2, "wy": 0, "wz": 0},
+    {"text": "26. Smiling on the bench and excessive familiarity with players ruin the coach's authority; professional distance is required.", "wx": 0, "wy": 2, "wz": 0},
+    {"text": "27. The important thing is winning, it doesn't matter if suffering for ninety minutes: history only remembers the lifted trophies.", "wx": 2, "wy": 0, "wz": -1},
+    {"text": "28. A serene climate, based on dialogue and players' happiness on the pitch, is the true secret of great winning cycles.", "wx": 0, "wy": -2, "wz": 1},
+    {"text": "29. Athletic condition and the ability to run more than the opponent matter much more than pure technique or formations.", "wx": -1, "wy": 1, "wz": 1},
+    {"text": "30. When winning by a narrow margin in the final minutes, wasting time, breaking up play, and smart tactical fouls are a necessary art.", "wx": 2, "wy": 0, "wz": -2},
+    {"text": "31. Football is a collective work of art: the goal of a great manager is to leave a historical mark through ideas.", "wx": -2, "wy": -1, "wz": 2},
+    {"text": "32. Modern footballers need constant iron-fist discipline; as soon as you loosen your grip on authority, the team falls apart.", "wx": 0, "wy": 2, "wz": -1},
+    {"text": "33. On the pitch, there are no opponents to respect sportingly, but enemies to intimidate and overwhelm with mental strength.", "wx": 1, "wy": 2, "wz": -2},
+    {"text": "34. Football is a contact sport: making ruthless tactical fouls and letting opponents feel your studs from the first minute is essential.", "wx": 2, "wy": 1, "wz": -2},
+    {"text": "35. Referee and media controversies are legitimate and necessary weapons to shift pressure and unify the environment.", "wx": 1, "wy": 2, "wz": -1},
+    {"text": "36. If a player on the pitch ignores tactical instructions and chooses to rely solely on personal instinct, they deserve an immediate and severe reprimand.", "wx": 1, "wy": 2, "wz": 0},
+    {"text": "37. Modern football requires pure speed: the golden rule is to play in one or two touches to speed up the maneuver and avoid mental lethargy.", "wx": -1, "wy": 0, "wz": 2},
+    {"text": "38. It is better to put the players in their best position, rather than making your players learn your football phylosophy ", "wx": 2, "wy": -1, "wz": 0},
+    {"text": "39. If I need to defend a goal in the last minutes I prefer bringing on a defender for an offensive player over suffering with the same scheme.", "wx": 2, "wy": 0, "wz": 2},
+    {"text": "40. It is better to have a goalkeeper that can play from the back but is an average shotstopper than one that can't play with their feet but is strong between the sticks." "wx": -1, "wy": 0, "wz": 1},       
 ]
 
 # Mapping text options to numerical values (-2 to +2)
@@ -278,6 +292,6 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     
     st.markdown("#### 📐 Your coordinates in 3D space (from -10 to +10):")
     col1, col2, col3 = st.columns(3)
-    col1.metric("X-Axis (Tactics/Management)", f"{user_x}")
-    col2.metric("Y-Axis (Authority)", f"{user_y}")
-    col3.metric("Z-Axis (Offensive/Defensive)", f"{user_z}")
+    col1.metric("X-Axis (RigidTactics/PragmaticManagement)", f"{user_x}")
+    col2.metric("Y-Axis (SelfManagment/Authority)", f"{user_y}")
+    col3.metric("Z-Axis (Difensive/Offensive)", f"{user_z}")
