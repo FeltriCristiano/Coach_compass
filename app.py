@@ -348,7 +348,6 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     col2.metric("Y-Axis (SelfManagment/Authority)", f"{user_y:.2f}")
     col3.metric("Z-Axis (Difensive/Offensive)", f"{user_z:.2f}")
 
-    st.markdown("---")
     
     # --- 🥈 🥉 SECOND AND THIRD PLACES ---
     st.markdown("### 🥈 Other Close Matches")
@@ -360,7 +359,6 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     col_runner2.markdown(f"**3rd Place: {third_closest['name']}**")
     col_runner2.write(third_closest["desc"])
 
-    st.markdown("---")
 
     # --- 🛑 THE FURTHEST FROM YOU ---
     st.markdown("### 🛑 Your Tactical Nemesis (Most Opposite Manager)")
