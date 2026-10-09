@@ -157,7 +157,7 @@ COACHES_EXTENDED = [
     }
 ]
 
-# The 36 statements with weights for the three axes (X, Y, Z)
+# The 40 statements with weights for the three axes (X, Y, Z)
 QUESTIONS = [
     {"text": "1. Winning while playing poorly gives no real satisfaction: the beauty of the game comes before the result.", "wx": -2, "wy": 0, "wz": 2},
     {"text": "2. The locker room is a strict hierarchy: the manager's word is law.", "wx": 0, "wy": 2, "wz": 0},
