@@ -4,14 +4,14 @@ import math
 # Page configuration
 st.set_page_config(page_title="Coach Compass 3D", page_icon="⚽", layout="centered")
 # --- CODE TO HIDE MENU AND LINK TO GITHUB ---
-#hide_streamlit_style = """
-           # <style>
+hide_streamlit_style = """
+            <style>
             #MainMenu {visibility: hidden;}
-           # header {visibility: hidden;}
-           # footer {visibility: hidden;}
-           # .viewerBadge_container__1QSob {display: none !important;}
-           # </style>
-           # """
+            header {visibility: hidden;}
+            footer {visibility: hidden;}
+            .viewerBadge_container__1QSob {display: none !important;}
+            </style>
+            """
 #st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # Extended list of managers with 3D coordinates and descriptions
 COACHES_EXTENDED = [
