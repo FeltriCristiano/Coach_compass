@@ -47,13 +47,13 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Gian Piero Gasperini", 
-        "x": -4.0, "y": 8.0, "z": 7.0,  
+        "x": -4.0, "y": 7.0, "z": 8.0,  
         "desc": "The Commander of the Commune: suffocating pressing, working-class enhancement and an iron fist.",
         "image": "img/gasperini.jpg"
     },
     {
         "name": "Pep Guardiola", 
-        "x": -6.0, "y": 7.0, "z": 7.0,  
+        "x": -5.0, "y": 6.0, "z": 7.0,  
         "desc": "The Technocratic Planner: maniacal ball possession and total control of the game system.",
         "image": "img/guardiola.jpg"
     },
