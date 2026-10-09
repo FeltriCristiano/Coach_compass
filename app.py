@@ -17,7 +17,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 COACHES_EXTENDED = [
     {
         "name": "Massimiliano Allegri", 
-        "x": 5.0, "y": 1.0, "z": -8.0,    
+        "x": 4.0, "y": 1.0, "z": -8.0,    
         "desc": "The Realistic Conservative: only the result and intelligent management of moments matter to you.",
         "image": "img/allegri.jpg"
     },
@@ -125,7 +125,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Sean Dyche", 
-        "x": 3.0, "y": 5.0, "z": -6.0, 
+        "x": 3.0, "y": 6.0, "z": -7.0, 
         "desc": "The Premier League Workhorse: classic 4-4-2, long balls, compact block, and trench resistance.",
         "image": "img/dyche.jpg"
     },
