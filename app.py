@@ -11,7 +11,7 @@ st.set_page_config(page_title="Coach Compass 3D", page_icon="⚽", layout="cente
            # footer {visibility: hidden;}
            # .viewerBadge_container__1QSob {display: none !important;}
            # </style>
-            """
+           # """
 #st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # Extended list of managers with 3D coordinates and descriptions
 COACHES_EXTENDED = [
