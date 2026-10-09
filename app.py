@@ -354,19 +354,16 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     st.markdown("### 🥈 Other Close Matches")
     col_runner1, col_runner2 = st.columns(2)
     
-    with col_runner1:
-        st.markdown(f"**2nd Place:** {second_closest['name']}")
-        st.caption(second_closest["desc"])
+    col_runner1.markdown(f"**2nd Place: {second_closest['name']}**")
+    col_runner1.write(second_closest["desc"])
         
-    with col_runner2:
-        st.markdown(f"**3rd Place:** {third_closest['name']}")
-        st.caption(third_closest["desc"])
+    col_runner2.markdown(f"**3rd Place: {third_closest['name']}**")
+    col_runner2.write(third_closest["desc"])
 
     st.markdown("---")
 
     # --- 🛑 THE FURTHEST FROM YOU ---
     st.markdown("### 🛑 Your Tactical Nemesis (Most Opposite Manager)")
     st.warning(f"**{furthest_coach['name']}**\n\n{furthest_coach['desc']}")
-
 
    
