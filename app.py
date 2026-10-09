@@ -292,7 +292,7 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
 
     # Strict normalization between -10 and +10
     user_x = 1.25 * round((raw_x / max_x) * 10, 2)
-    user_y = 1.33 * round((raw_y / max_y) * 10, 2)
+    user_y = 1.4 * round((raw_y / max_y) * 10, 2)
     user_z = 1.33 * round((raw_z / max_z) * 10, 2)
 
     if user_x > 10: 
