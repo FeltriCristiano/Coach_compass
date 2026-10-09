@@ -159,6 +159,11 @@ COACHES_EXTENDED = [
         "name": "Vincent Kompany", 
         "x": -6.0, "y": 2.0, "z": 8.0, 
         "desc": "The Relentless Innovator: extreme high pressing, dogmatic ball possession and unwavering belief in attacking principles."
+    },
+    {
+        "name": "Sergio Conceicao", 
+        "x": 3.0, "y": 8.0, "z": -3.0, 
+        "desc": "The Combative Sergeant: relentless intensity, strong organization and a fierce, uncompromising competitive spirit."
     }
 ]
 
