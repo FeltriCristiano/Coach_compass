@@ -3,9 +3,63 @@ import math
 
 # Page configuration
 st.set_page_config(page_title="Coach Compass 3D", page_icon="⚽", layout="centered")
-
+# --- CODE TO HIDE MENU AND LINK TO GITHUB ---
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            header {visibility: hidden;}
+            footer {visibility: hidden;}
+            .viewerBadge_container__1QSob {display: none !important;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # Extended list of managers with 3D coordinates and descriptions
 COACHES_EXTENDED = [
+    {
+        "name": "Massimiliano Allegri", 
+        "x": 5.0, "y": 1.0, "z": -8.0,    
+        "desc": "The Realistic Conservative: only the result and intelligent management of moments matter to you."
+    },
+    {
+        "name": "Antonio Conte", 
+        "x": -3.0, "y": 9.0, "z": -7.0,  
+        "desc": "The Authoritarian Jacobin: iron discipline, grueling work and zero tolerance for dissent."
+    },
+    {
+        "name": "Maurizio Sarri", 
+        "x": -8.0, "y": 2.0, "z": 5.0,  
+        "desc": "The Intransigent Revolutionary: the beautiful game and tactical dogma come first."
+    },
+    {
+        "name": "Carlo Ancelotti", 
+        "x": 8.0, "y": -4.0, "z": 0.0,  
+        "desc": "The Aristocratic Liberal: you manage champions with empathy, authority and absolute freedom."
+    },
+    {
+        "name": "Marcelo Bielsa", 
+        "x": -8.0, "y": -6.0, "z": 6.0,  
+        "desc": "The Romantic Anarchist: crazy, total, idealistic football, rebellious to any logic of power."
+    },
+    {
+        "name": "Gian Piero Gasperini", 
+        "x": -4.0, "y": 8.0, "z": 7.0,  
+        "desc": "The Commander of the Commune: suffocating pressing, working-class enhancement and an iron fist."
+    },
+    {
+        "name": "Pep Guardiola", 
+        "x": -6.0, "y": 7.0, "z": 7.0,  
+        "desc": "The Technocratic Planner: maniacal ball possession and total control of the game system."
+    },
+    {
+        "name": "Diego Simeone", 
+        "x": 3.0, "y": 8.0, "z": -8.0,  
+        "desc": "The Sovereign of the Trench: all-out defense, group identity and battle spirit."
+    },
+    {
+        "name": "Zinedine Zidane", 
+        "x": 5.0, "y": -2.0, "z": 3.0,  
+        "desc": "The Enlightened Monarch: silent charisma, serene management and absolute respect for the locker room."
+    },
     {
         "name": "José Mourinho", 
         "x": 8.0, "y": 9.0, "z": -6.0, 
