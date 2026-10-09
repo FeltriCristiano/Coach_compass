@@ -101,7 +101,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "José Bordalas", 
-        "x": 2.0, "y": 7.0, "z": -9.0, 
+        "x": 4.0, "y": 7.0, "z": -9.0, 
         "desc": "The Master of the Trench and Garra: low block, extreme athleticism, and uncompromising defensive pragmatism.",
         "image": "img/bordalas.jpg"
     },
@@ -125,7 +125,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Sean Dyche", 
-        "x": 4.0, "y": 5.0, "z": -7.0, 
+        "x": 3.0, "y": 5.0, "z": -7.0, 
         "desc": "The Premier League Workhorse: classic 4-4-2, long balls, compact block, and trench resistance.",
         "image": "img/dyche.jpg"
     },
