@@ -312,16 +312,28 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     # Find the closest manager using 3D Euclidean distance
     closest_coach = None
     min_distance = float('inf')
-
+    # Calculate distance for all managers and sort them
+    coaches_with_distance = []
     for coach in COACHES_EXTENDED:
         dist = math.sqrt(
             (user_x - coach["x"])**2 + 
             (user_y - coach["y"])**2 + 
             (user_z - coach["z"])**2
         )
-        if dist < min_distance:
-            min_distance = dist
-            closest_coach = coach
+        coaches_with_distance.append({
+            "coach": coach,
+            "distance": dist
+        })
+
+    # Sort from closest to furthest
+    coaches_with_distance.sort(key=lambda item: item["distance"])
+
+    # Extract managers
+    closest_coach = coaches_with_distance[0]["coach"]
+    second_closest = coaches_with_distance[1]["coach"]
+    third_closest = coaches_with_distance[2]["coach"]
+    furthest_coach = coaches_with_distance[-1]["coach"]
+
 
     # Display results
     st.balloons()
@@ -336,3 +348,23 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     col1.metric("X-Axis (RigidTactics/PragmaticManagement)", f"{user_x:.2f}")
     col2.metric("Y-Axis (SelfManagment/Authority)", f"{user_y:.2f}")
     col3.metric("Z-Axis (Difensive/Offensive)", f"{user_z:.2f}")
+
+    st.markdown("---")
+    
+    # --- 🥈 🥉 SECOND AND THIRD PLACES ---
+    st.markdown("### 🥈 Other Close Matches")
+    col_runner1, col_runner2 = st.columns(2)
+    
+    with col_runner1:
+        st.markdown(f"**2nd Place:** {second_closest['name']}")
+        st.caption(second_closest["desc"])
+        
+    with col_runner2:
+        st.markdown(f"**3rd Place:** {third_closest['name']}")
+        st.caption(third_closest["desc"])
+
+    st.markdown("---")
+
+    # --- 🛑 THE FURTHERST FROM YOU ---
+    st.markdown("### 🛑 Your Tactical Nemesis (Most Opposite Manager)")
+    st.warning(f"**{furthest_coach['name']}**\n\n{furthest_coach['desc']}")
