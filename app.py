@@ -239,7 +239,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Cesc Fabregas", 
-        "x": -5.0, "y": -2.0, "z": 4.0, 
+        "x": -5.0, "y": -2.0, "z": 5.0, 
         "desc": "The Modern Visionary: proactive possession, technical bravery, fluid positional structure, and a calm, player-centric approach.",
         "image": "img/fabregas.jpg"
     },
