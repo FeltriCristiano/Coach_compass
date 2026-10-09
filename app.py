@@ -101,7 +101,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "José Bordalas", 
-        "x": 4.0, "y": 7.0, "z": -9.0, 
+        "x": 5.0, "y": 7.0, "z": -9.0, 
         "desc": "The Master of the Trench and Garra: low block, extreme athleticism, and uncompromising defensive pragmatism.",
         "image": "img/bordalas.jpg"
     },
