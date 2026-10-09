@@ -365,5 +365,55 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     # --- 🛑 THE FURTHEST FROM YOU ---
     st.markdown("### 🛑 Your Tactical Nemesis (Most Opposite Manager)")
     st.warning(f"**{furthest_coach['name']}**\n\n{furthest_coach['desc']}")
+# --- 📱 SHARE & SUPPORT BANNER ---
+    st.write("---")
+    
+    # 1. Share Box
+    st.subheader("📲 Share your result with your friends!")
+    st.markdown("Copy the text below and paste it into your group chat or fantasy league:")
+    
+    # Dynamic share text for WhatsApp, Telegram & Socials
+    share_text = (
+        f"⚽ I just took the Coach Compass 3D test!\n"
+        f"My dugout alter ego is {closest_coach['name']}! 🧠🏆\n"
+        f"My tactical nemesis is {furthest_coach['name']} 🛑\n\n"
+        f"Find out which manager matches your football philosophy here: [https://coachcompass-vfxpvrh7aneqb6tare2wmc.streamlit.app/]"
+    )
+    
+    # Displays code block with a one-click copy button in Streamlit
+    st.code(share_text, language="text")
 
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    # 2. Support / Tip Jar Banner
+    st.markdown(
+        """
+        <div style="
+            background-color: #1e222a;
+            border: 1px solid #3b4252;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 15px;
+        ">
+            <h4 style="margin: 0; color: #ffffff;">☕ Did you enjoy the quiz?</h4>
+            <p style="color: #d8dee9; font-size: 14px; margin-top: 8px;">
+                If you'd like to support the development of Coach Compass 3D and help keep the servers running, buy me a coffee!
+            </p>
+            <a href="https://buymeacoffee.com/feltricrisz" target="_blank" style="
+                display: inline-block;
+                background-color: #FFDD00;
+                color: #000000;
+                font-weight: bold;
+                padding: 10px 20px;
+                border-radius: 8px;
+                text-decoration: none;
+                margin-top: 10px;
+            ">
+                💛 Buy me a coffee on Buy Me a Coffee
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
    
