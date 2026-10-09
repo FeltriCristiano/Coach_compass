@@ -154,6 +154,11 @@ COACHES_EXTENDED = [
         "name": "Luis de la Fuente", 
         "x": -3.0, "y": -3.0, "z": 5.0, 
         "desc": "The Vertical Normalizer: possession without dogmas, fierce search for one-on-ones on the wings and calm, silent management."
+    },
+    {
+        "name": "Vincent Kompany", 
+        "x": -6.0, "y": 2.0, "z": 8.0, 
+        "desc": "The Relentless Innovator: extreme high pressing, dogmatic ball possession and unwavering belief in attacking principles."
     }
 ]
 
@@ -183,7 +188,7 @@ QUESTIONS = [
     {"text": "22. Investing in youth academies always pays off more than buying ready-made but expensive players on the market.", "wx": -2, "wy": 0, "wz": 0},
     {"text": "23. Changing formations during the match or mirroring the opponent shows intelligence and flexibility.", "wx": 2, "wy": 0, "wz": 0},
     {"text": "24. Even in numerical inferiority or a difficult away match, you must never give up attacking and playing the game.", "wx": -1, "wy": 0, "wz": 2},
-    {"text": "25. I demand the board players that fit my style of football and do not want a player that does not even if they are individually very strong.", "wx": -2, "wy": 0, "wz": 0},
+    {"text": "25. I demand the board players that fit my style of football and do not want a player that does not, even if they are individually very strong.", "wx": -2, "wy": 0, "wz": 0},
     {"text": "26. Smiling on the bench and excessive familiarity with players ruin the coach's authority; professional distance is required.", "wx": 0, "wy": 2, "wz": 0},
     {"text": "27. The important thing is winning, it doesn't matter if suffering for ninety minutes: history only remembers the lifted trophies.", "wx": 2, "wy": 0, "wz": -1},
     {"text": "28. A serene climate, based on dialogue and players' happiness on the pitch, is the true secret of great winning cycles.", "wx": 0, "wy": -2, "wz": 1},
