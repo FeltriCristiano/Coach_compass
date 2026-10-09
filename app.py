@@ -196,7 +196,7 @@ QUESTIONS = [
     {"text": "35. Referee and media controversies are legitimate and necessary weapons to shift pressure and unify the environment.", "wx": 1, "wy": 2, "wz": -1},
     {"text": "36. If a player on the pitch ignores tactical instructions and chooses to rely solely on personal instinct, they deserve an immediate and severe reprimand.", "wx": 1, "wy": 2, "wz": 0},
     {"text": "37. Modern football requires pure speed: the golden rule is to play in one or two touches to speed up the maneuver and avoid mental lethargy.", "wx": -1, "wy": 0, "wz": 2},
-    {"text": "38. It is better to put the players in their best position, rather than making your players learn your football phylosophy ", "wx": 2, "wy": -1, "wz": 0},
+    {"text": "38. It is better to put the players in their best position, rather than making your players learn your football phylosophy.", "wx": 2, "wy": -1, "wz": 0},
     {"text": "39. If I need to defend a goal in the last minutes I prefer bringing on a defender for an offensive player over suffering with the same scheme.", "wx": 2, "wy": 0, "wz": 2},
     {"text": "40. It is better to have a goalkeeper that can play from the back but is an average shotstopper than one that can't play with their feet but is strong between the sticks.", "wx": -1, "wy": 0, "wz": 1},       
 ]
@@ -292,6 +292,6 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     
     st.markdown("#### 📐 Your coordinates in 3D space (from -10 to +10):")
     col1, col2, col3 = st.columns(3)
-    col1.metric("X-Axis (RigidTactics/PragmaticManagement)", f"{user_x}")
-    col2.metric("Y-Axis (SelfManagment/Authority)", f"{user_y}")
-    col3.metric("Z-Axis (Difensive/Offensive)", f"{user_z}")
+    col1.metric("X-Axis (RigidTactics/PragmaticManagement)", f"{user_x:.2f}")
+    col2.metric("Y-Axis (SelfManagment/Authority)", f"{user_y:.2f}")
+    col3.metric("Z-Axis (Difensive/Offensive)", f"{user_z:.2f}")
