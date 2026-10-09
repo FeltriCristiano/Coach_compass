@@ -12,7 +12,7 @@ hide_streamlit_style = """
             .viewerBadge_container__1QSob {display: none !important;}
             </style>
             """
-#st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # Extended list of managers with 3D coordinates and descriptions
 COACHES_EXTENDED = [
     {
