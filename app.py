@@ -23,7 +23,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Antonio Conte", 
-        "x": -2.0, "y": 9.0, "z": -7.0,  
+        "x": 1.0, "y": 9.0, "z": -7.0,  
         "desc": "The Authoritarian Jacobin: iron discipline, grueling work and zero tolerance for dissent.",
         "image": "img/conte.jpg"
     },
