@@ -71,7 +71,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "José Mourinho", 
-        "x": 8.0, "y": 9.0, "z": -6.0, 
+        "x": 8.0, "y": 8.0, "z": -7.0, 
         "desc": "The Commander of the Besieged Fortress: cynicism, psychological warfare, and stout defense to win against everyone.",
         "image": "img/mourinho.jpg"
     },
@@ -101,7 +101,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "José Bordalas", 
-        "x": 5.0, "y": 7.0, "z": -9.0, 
+        "x": 5.0, "y": 6.0, "z": -9.0, 
         "desc": "The Master of the Trench and Garra: low block, extreme athleticism, and uncompromising defensive pragmatism.",
         "image": "img/bordalas.jpg"
     },
