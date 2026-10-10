@@ -1,5 +1,7 @@
 import streamlit as st
 import math
+import plotly.graph_objects as go
+
 
 # Page configuration
 st.set_page_config(page_title="Coach Compass 3D", page_icon="⚽", layout="centered")
@@ -396,8 +398,7 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     col2.metric("Y-Axis (SelfManagment/Authority)", f"{user_y:.2f}")
     col3.metric("Z-Axis (Difensive/Offensive)", f"{user_z:.2f}")
 
-   import plotly.graph_objects as go
-
+   
     st.write("---")
     st.markdown("### 🗺️ Your Tactical Map")
 
