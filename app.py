@@ -247,7 +247,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Zdenek Zeman", 
-        "x": -8.0, "y": 6.0, "z": 9.0, 
+        "x": -9.0, "y": 6.0, "z": 9.0, 
         "desc": "The Ultimate Attacking Dogmatist: relentless 4-3-3, grueling physical demands, uncompromising vertical football, and absolute loyalty to his offensive philosophy.",
         "image": "img/zeman.jpg"
     },
