@@ -392,14 +392,14 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     
     st.markdown("#### 📐 Your coordinates in 3D space (from -10 to +10):")
     col1, col2, col3 = st.columns(3)
-    col1.metric("X-Axis (RigidTactics/PragmaticManagement)", f"{user_x:.2f}")
+    col1.metric("X-Axis (Dogmatism/Pragmatism)", f"{user_x:.2f}")
     col2.metric("Y-Axis (SelfManagment/Authority)", f"{user_y:.2f}")
     col3.metric("Z-Axis (Difensive/Offensive)", f"{user_z:.2f}")
 
     st.markdown("---")
             
     # --- 🥈 🥉 SECOND AND THIRD PLACES ---
-    st.markdown("### 🥈 Other Close Matches")
+    st.markdown("### 🥈🥉 Other Close Matches")
     col_runner1, col_runner2 = st.columns(2)
     
     col_runner1.markdown(f"**2nd Place: {second_closest['name']}**")
