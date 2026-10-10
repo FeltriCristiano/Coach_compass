@@ -400,7 +400,6 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
 
    
     st.write("---")
-    st.markdown("### 🗺️ Your Tactical Map")
 
     # --- 🥈 🥉 SECOND AND THIRD PLACES ---
     st.markdown("### 🥈🥉 Other Close Matches")
@@ -413,6 +412,7 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     col_runner2.write(third_closest["desc"])
 
     st.markdown("---")
+    st.markdown("### 🗺️ Your Tactical Map")
 
     # --- GRAPH 1: X-Y CARTESIAN PLANE ---
     fig_xy = go.Figure()
