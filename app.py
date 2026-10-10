@@ -67,7 +67,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Zinedine Zidane", 
-        "x": 3.0, "y": -2.0, "z": 3.0,  
+        "x": 3.0, "y": -4.0, "z": 3.0,  
         "desc": "The Enlightened Monarch: silent charisma, serene management and absolute respect for the locker room.",
         "image": "img/zidane.jpg"
     },
@@ -139,7 +139,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Xabi Alonso", 
-        "x": 1.0, "y": 2.0, "z": 6.0, 
+        "x": 0.0, "y": -2.0, "z": 6.0, 
         "desc": "The Elegant Architect: flawless transitions, pitch control, and modern, flexible offensive mentality.",
         "image": "img/alonso.jpg"
     },
