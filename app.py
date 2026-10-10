@@ -396,7 +396,7 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     col2.metric("Y-Axis (SelfManagment/Authority)", f"{user_y:.2f}")
     col3.metric("Z-Axis (Difensive/Offensive)", f"{user_z:.2f}")
 
-    import plotly.graph_objects as go
+   import plotly.graph_objects as go
 
     st.write("---")
     st.markdown("### 🗺️ Your Tactical Map")
@@ -430,14 +430,15 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
         title="Tactics & Management (X - Y Axes)",
         xaxis_title="← Dogmatic | Pragmatic →",
         yaxis_title="← Empathetic | Authoritarian →",
-        xaxis=dict(range=[-10.5, 10.5], zeroline=False),
-        yaxis=dict(range=[-10.5, 10.5], zeroline=False),
+        xaxis=dict(range=[-10, 10], zeroline=False, fixedrange=True),
+        yaxis=dict(range=[-10, 10], zeroline=False, fixedrange=True),
         template="plotly_dark",
         height=450,
         margin=dict(l=20, r=20, t=50, b=20),
         showlegend=False
     )
-    st.plotly_chart(fig_xy, use_container_width=True)
+    # The config parameter hides the tool bar and prevents accidental touches on mobile
+    st.plotly_chart(fig_xy, use_container_width=True, config={'displayModeBar': False})
 
     # --- GRAPH 2: Z AXIS LINE ---
     fig_z = go.Figure()
@@ -466,17 +467,14 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     fig_z.update_layout(
         title="Playstyle (Z Axis)",
         xaxis_title="← Defensive | Offensive →",
-        yaxis=dict(showticklabels=False, range=[-1, 1], showgrid=False, zeroline=False),
-        xaxis=dict(range=[-10.5, 10.5], zeroline=False),
+        yaxis=dict(showticklabels=False, range=[-1, 1], showgrid=False, zeroline=False, fixedrange=True),
+        xaxis=dict(range=[-10, 10], zeroline=False, fixedrange=True),
         template="plotly_dark",
         height=200,
         margin=dict(l=20, r=20, t=50, b=20),
         showlegend=False
     )
-    st.plotly_chart(fig_z, use_container_width=True)
-
-    st.markdown("---")
-            
+    st.plotly_chart(fig_z, use_container_width=True, config={'displayModeBar': False})
     # --- 🥈 🥉 SECOND AND THIRD PLACES ---
     st.markdown("### 🥈🥉 Other Close Matches")
     col_runner1, col_runner2 = st.columns(2)
