@@ -396,6 +396,85 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     col2.metric("Y-Axis (SelfManagment/Authority)", f"{user_y:.2f}")
     col3.metric("Z-Axis (Difensive/Offensive)", f"{user_z:.2f}")
 
+    import plotly.graph_objects as go
+
+    st.write("---")
+    st.markdown("### 🗺️ Your Tactical Map")
+
+    # --- GRAPH 1: X-Y CARTESIAN PLANE ---
+    fig_xy = go.Figure()
+
+    # Origin lines to divide quadrants
+    fig_xy.add_hline(y=0, line_dash="dash", line_color="#3b4252")
+    fig_xy.add_vline(x=0, line_dash="dash", line_color="#3b4252")
+
+    # Coach Point (Alter Ego)
+    fig_xy.add_trace(go.Scatter(
+        x=[closest_coach["x"]], y=[closest_coach["y"]],
+        mode='markers+text',
+        name=closest_coach["name"],
+        marker=dict(color='white', size=12, symbol='circle'),
+        text=[closest_coach["name"]], textposition="bottom center"
+    ))
+
+    # User Point (You)
+    fig_xy.add_trace(go.Scatter(
+        x=[user_x], y=[user_y],
+        mode='markers+text',
+        name='You',
+        marker=dict(color='#FFDD00', size=16, symbol='star'),
+        text=['You'], textposition="top center"
+    ))
+
+    fig_xy.update_layout(
+        title="Tactics & Management (X - Y Axes)",
+        xaxis_title="← Dogmatic | Pragmatic →",
+        yaxis_title="← Empathetic | Authoritarian →",
+        xaxis=dict(range=[-10.5, 10.5], zeroline=False),
+        yaxis=dict(range=[-10.5, 10.5], zeroline=False),
+        template="plotly_dark",
+        height=450,
+        margin=dict(l=20, r=20, t=50, b=20),
+        showlegend=False
+    )
+    st.plotly_chart(fig_xy, use_container_width=True)
+
+    # --- GRAPH 2: Z AXIS LINE ---
+    fig_z = go.Figure()
+
+    # Horizontal base line
+    fig_z.add_hline(y=0, line_color="#3b4252", line_width=2)
+
+    # Coach Point
+    fig_z.add_trace(go.Scatter(
+        x=[closest_coach["z"]], y=[0],
+        mode='markers+text',
+        name=closest_coach["name"],
+        marker=dict(color='white', size=12, symbol='circle'),
+        text=[closest_coach["name"]], textposition="bottom center"
+    ))
+
+    # User Point (You)
+    fig_z.add_trace(go.Scatter(
+        x=[user_z], y=[0],
+        mode='markers+text',
+        name='You',
+        marker=dict(color='#FFDD00', size=16, symbol='star'),
+        text=['You'], textposition="top center"
+    ))
+
+    fig_z.update_layout(
+        title="Playstyle (Z Axis)",
+        xaxis_title="← Defensive | Offensive →",
+        yaxis=dict(showticklabels=False, range=[-1, 1], showgrid=False, zeroline=False),
+        xaxis=dict(range=[-10.5, 10.5], zeroline=False),
+        template="plotly_dark",
+        height=200,
+        margin=dict(l=20, r=20, t=50, b=20),
+        showlegend=False
+    )
+    st.plotly_chart(fig_z, use_container_width=True)
+
     st.markdown("---")
             
     # --- 🥈 🥉 SECOND AND THIRD PLACES ---
