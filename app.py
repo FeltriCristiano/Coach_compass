@@ -37,7 +37,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Carlo Ancelotti", 
-        "x": 8.0, "y": -4.0, "z": 0.0,  
+        "x": 8.0, "y": -5.0, "z": 0.0,  
         "desc": "The Aristocratic Liberal: you manage champions with empathy, authority and absolute freedom.",
         "image": "img/ancelotti.jpg"
     },
@@ -85,7 +85,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Stefano Pioli", 
-        "x": -1.0, "y": -3.0, "z": 4.0, 
+        "x": -1.0, "y": -4.0, "z": 4.0, 
         "desc": "The Empathetic Family Man: group cohesion, lightheartedness, and collective solidarity without authoritarian rigidity.",
         "image": "img/pioli.jpg"
     },
@@ -121,7 +121,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Unai Emery", 
-        "x": 1.0, "y": 6.0, "z": 0.0, 
+        "x": 1.0, "y": 5.0, "z": 0.0, 
         "desc": "The Press Room Tactician: chameleon-like, meticulous cup preparation, and pushed pragmatism.",
         "image": "img/emery.jpg"
     },
@@ -157,7 +157,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Mauricio Pochettino", 
-        "x": 1.0, "y": -2.0, "z": 5.0, 
+        "x": 1.0, "y": -2.0, "z": 4.0, 
         "desc": "The Modern Trainer: high athletic intensity, youth development, and dynamic, associative football.",
         "image": "img/pochettino.jpg"
     },
