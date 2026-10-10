@@ -155,7 +155,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Mauricio Pochettino", 
-        "x": -3.0, "y": -2.0, "z": 5.0, 
+        "x": 1.0, "y": -2.0, "z": 5.0, 
         "desc": "The Modern Trainer: high athletic intensity, youth development, and dynamic, associative football.",
         "image": "img/pochettino.jpg"
     },
