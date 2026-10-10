@@ -386,7 +386,7 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
     
     st.markdown(f"### 🎯 Your alter ego is: **{closest_coach['name']}**")
     
-    # Controlla se la chiave 'image' esiste prima di caricarla
+    
     if "image" in closest_coach:
         st.image(closest_coach["image"], width=400)
         
@@ -401,6 +401,18 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
    
     st.write("---")
     st.markdown("### 🗺️ Your Tactical Map")
+
+    # --- 🥈 🥉 SECOND AND THIRD PLACES ---
+    st.markdown("### 🥈🥉 Other Close Matches")
+    col_runner1, col_runner2 = st.columns(2)
+    
+    col_runner1.markdown(f"**2nd Place: {second_closest['name']}**")
+    col_runner1.write(second_closest["desc"])
+        
+    col_runner2.markdown(f"**3rd Place: {third_closest['name']}**")
+    col_runner2.write(third_closest["desc"])
+
+    st.markdown("---")
 
     # --- GRAPH 1: X-Y CARTESIAN PLANE ---
     fig_xy = go.Figure()
@@ -417,6 +429,27 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
         marker=dict(color='grey', size=12, symbol='circle'),
         text=[closest_coach["name"]], textposition="bottom center"
     ))
+            
+    # Second Coach
+    fig_xy.add_trace(go.Scatter(
+        x=[second_closest["x"]], y=[second_closest["y"]],
+        mode='markers+text',
+        name=second_closest["name"],
+        marker=dict(color='#666666', size=7, symbol='circle'), 
+        text=[second_closest["name"]], textposition="bottom center",
+        textfont=dict(size=10, color="#888888")
+    ))
+            
+    # Third Coach
+    fig_xy.add_trace(go.Scatter(
+        x=[third_closest["x"]], y=[third_closest["y"]],
+        mode='markers+text',
+        name=third_closest["name"],
+        marker=dict(color='#666666', size=7, symbol='circle'), 
+        text=[third_closest["name"]], textposition="bottom center",
+        textfont=dict(size=10, color="#888888")
+    ))
+    
 
     # User Point (You)
     fig_xy.add_trace(go.Scatter(
@@ -449,12 +482,34 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
 
     # Coach Point
     fig_z.add_trace(go.Scatter(
-        x=[closest_coach["z"]], y=[0],
+        x=[closest_coach["z"]], 
         mode='markers+text',
         name=closest_coach["name"],
         marker=dict(color='grey', size=12, symbol='circle'),
         text=[closest_coach["name"]], textposition="bottom center"
     ))
+
+    # Second Coach
+    fig_z.add_trace(go.Scatter(
+        x=[second_closest["z"]],
+        mode='markers+text',
+        name=second_closest["name"],
+        marker=dict(color='#666666', size=7, symbol='circle'),
+        text=[second_closest["name"]], textposition="bottom center",
+        textfont=dict(size=10, color="#888888")
+    ))
+
+    # Third Coach
+    fig_z.add_trace(go.Scatter(
+        x=[third_closest["z"]], 
+        mode='markers+text',
+        name=third_closest["name"],
+        marker=dict(color='#666666', size=7, symbol='circle'),
+        text=[third_closest["name"]], textposition="bottom center",
+        textfont=dict(size=10, color="#888888")
+    ))
+            
+    
 
     # User Point (You)
     fig_z.add_trace(go.Scatter(
@@ -476,17 +531,7 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
         showlegend=False
     )
     st.plotly_chart(fig_z, use_container_width=True, config={'displayModeBar': False})
-    # --- 🥈 🥉 SECOND AND THIRD PLACES ---
-    st.markdown("### 🥈🥉 Other Close Matches")
-    col_runner1, col_runner2 = st.columns(2)
     
-    col_runner1.markdown(f"**2nd Place: {second_closest['name']}**")
-    col_runner1.write(second_closest["desc"])
-        
-    col_runner2.markdown(f"**3rd Place: {third_closest['name']}**")
-    col_runner2.write(third_closest["desc"])
-
-    st.markdown("---")
 
     # --- 🛑 THE FURTHEST FROM YOU ---
     st.markdown("### 🛑 Your Tactical Nemesis (Most Opposite Manager)")
