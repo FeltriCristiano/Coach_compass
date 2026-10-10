@@ -245,6 +245,12 @@ COACHES_EXTENDED = [
         "desc": "The Modern Visionary: proactive possession, technical bravery, fluid positional structure, and a calm, player-centric approach.",
         "image": "img/fabregas.jpg"
     },
+    {
+        "name": "Zdenek Zeman", 
+        "x": -8.0, "y": 6.0, "z": 9.0, 
+        "desc": "The Ultimate Attacking Dogmatist: relentless 4-3-3, grueling physical demands, uncompromising vertical football, and absolute loyalty to his offensive philosophy.",
+        "image": "img/zeman.jpg"
+    },
 ]
 
 # The 40 statements with weights for the three axes (X, Y, Z)
