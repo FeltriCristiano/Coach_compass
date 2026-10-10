@@ -487,6 +487,7 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
         name=closest_coach["name"],
         marker=dict(color='grey', size=12, symbol='circle'),
         text=[closest_coach["name"]], textposition="bottom center"
+        hovertemplate="<b>%{text}</b><br>Z: %{x}<extra></extra>"
     ))
 
     # Second Coach
@@ -497,6 +498,7 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
         marker=dict(color='#666666', size=7, symbol='circle'),
         text=[second_closest["name"]], textposition="bottom center",
         textfont=dict(size=10, color="#888888")
+        hovertemplate="<b>%{text}</b><br>Z: %{x}<extra></extra>"
     ))
 
     # Third Coach
@@ -507,6 +509,7 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
         marker=dict(color='#666666', size=7, symbol='circle'),
         text=[third_closest["name"]], textposition="bottom center",
         textfont=dict(size=10, color="#888888")
+        hovertemplate="<b>%{text}</b><br>Z: %{x}<extra></extra>"
     ))
             
     
@@ -518,6 +521,7 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
         name='You',
         marker=dict(color='#FFDD00', size=16, symbol='star'),
         text=['You'], textposition="top center"
+        hovertemplate="<b>%{text}</b><br>Z: %{x}<extra></extra>"
     ))
 
     fig_z.update_layout(
