@@ -414,7 +414,7 @@ if st.button("🏆 Calculate your dugout alter ego!", type="primary"):
         x=[closest_coach["x"]], y=[closest_coach["y"]],
         mode='markers+text',
         name=closest_coach["name"],
-        marker=dict(color='white', size=12, symbol='circle'),
+        marker=dict(color='grey', size=12, symbol='circle'),
         text=[closest_coach["name"]], textposition="bottom center"
     ))
 
