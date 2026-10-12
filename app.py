@@ -91,7 +91,7 @@ COACHES_EXTENDED = [
     },
     {
         "name": "Jurgen Klopp", 
-        "x": -5.0, "y": 2.0, "z": 7.0, 
+        "x": -5.0, "y": -2.0, "z": 7.0, 
         "desc": "The Rock 'n' Roll Leader: furious gegenpressing, overwhelming empathy, and extremely high-intensity offensive mentality.",
         "image": "img/klopp.jpg"
     },
